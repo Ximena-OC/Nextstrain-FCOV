@@ -1,0 +1,2873 @@
+{
+  "models": {
+    "country": {
+      "rate": 6.212806031493413,
+      "alphabet": [
+        "Australia",
+        "Brazil",
+        "China",
+        "Colombia",
+        "Cyprus",
+        "Germany",
+        "Netherlands",
+        "Taiwan",
+        "USA",
+        "United Kingdom",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.10095880996565812,
+        0.09889282276419953,
+        0.09721866617492728,
+        0.10298861895861966,
+        0.09764446243832216,
+        0.09827398873873316,
+        0.1032638119155602,
+        0.09739710256819227,
+        0.10675037056733915,
+        0.09661134590844847
+      ],
+      "transition_matrix": [
+        [
+          0.0,
+          0.9355366086686134,
+          0.935206329897659,
+          0.9206165554841059,
+          0.9343940908628976,
+          0.9350773834882145,
+          1.340318101059034,
+          0.9348928319343518,
+          1.4193445399074087,
+          0.933140615389184
+        ],
+        [
+          0.9355366086686134,
+          0.0,
+          0.9493410803020852,
+          0.9356301263760834,
+          0.9485865733441454,
+          0.9519452289514226,
+          1.059930101970586,
+          0.9491581852553961,
+          1.2647788621988265,
+          0.9507338814086376
+        ],
+        [
+          0.935206329897659,
+          0.9493410803020852,
+          0.0,
+          0.938394122714486,
+          0.9483545945097229,
+          0.9491166554141914,
+          0.9356547146976557,
+          0.9488155438463337,
+          1.3628782548458453,
+          0.9469609716167291
+        ],
+        [
+          0.9206165554841059,
+          0.9356301263760834,
+          0.938394122714486,
+          0.0,
+          0.934581760596489,
+          0.9355037827338911,
+          0.9213033918483525,
+          0.9351222270225173,
+          1.8207828025589776,
+          0.9341641216104845
+        ],
+        [
+          0.9343940908628976,
+          0.9485865733441454,
+          0.9483545945097229,
+          0.934581760596489,
+          0.0,
+          0.9483642218811721,
+          0.9361159780146155,
+          0.9480679392231578,
+          1.3557679454685845,
+          0.9462083762294456
+        ],
+        [
+          0.9350773834882145,
+          0.9519452289514226,
+          0.9491166554141914,
+          0.9355037827338911,
+          0.9483642218811721,
+          0.0,
+          0.9420775877222655,
+          0.9489396409725724,
+          1.3095634026569107,
+          1.0219498656406842
+        ],
+        [
+          1.340318101059034,
+          1.059930101970586,
+          0.9356547146976557,
+          0.9213033918483525,
+          0.9361159780146155,
+          0.9420775877222655,
+          0.0,
+          0.9361217214473889,
+          3.7380958416879415,
+          0.945249899436185
+        ],
+        [
+          0.9348928319343518,
+          0.9491581852553961,
+          0.9488155438463337,
+          0.9351222270225173,
+          0.9480679392231578,
+          0.9489396409725724,
+          0.9361217214473889,
+          0.0,
+          1.3600860426962842,
+          0.9468457097071604
+        ],
+        [
+          1.4193445399074087,
+          1.2647788621988265,
+          1.3628782548458453,
+          1.8207828025589776,
+          1.3557679454685845,
+          1.3095634026569107,
+          3.7380958416879415,
+          1.3600860426962842,
+          0.0,
+          1.3909085350484003
+        ],
+        [
+          0.933140615389184,
+          0.9507338814086376,
+          0.9469609716167291,
+          0.9341641216104845,
+          0.9462083762294456,
+          1.0219498656406842,
+          0.945249899436185,
+          0.9468457097071604,
+          1.3909085350484003,
+          0.0
+        ]
+      ]
+    },
+    "accession": {
+      "rate": 3.212677671314915,
+      "alphabet": [
+        "GSC",
+        "not_GSC",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.7094412976742093,
+        0.29055870232579073
+      ],
+      "transition_matrix": [
+        [
+          0.0,
+          2.425602610118615
+        ],
+        [
+          2.425602610118615,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "NODE_0000003": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.5777884744049562,
+        "United Kingdom": 0.31704382768879336,
+        "Germany": 0.04202450004715477,
+        "Netherlands": 0.022771393568252328,
+        "Colombia": 0.008170958510429009,
+        "Brazil": 0.007618119809131652,
+        "Australia": 0.006437712233651852,
+        "Taiwan": 0.006130130334703504,
+        "China": 0.006011363200496015,
+        "Cyprus": 0.006003520202431497
+      },
+      "country_entropy": 1.1020611967123477,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9941807666810497,
+        "GSC": 0.005819233318950348
+      },
+      "accession_entropy": 0.03575145778094319
+    },
+    "NODE_0000026": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 0.9475189807779318,
+        "USA": 0.039399859335613546,
+        "Germany": 0.0033119955691206923,
+        "Netherlands": 0.0030005797536306264,
+        "Colombia": 0.0013795965355375818,
+        "Brazil": 0.00112267455815474,
+        "Australia": 0.0011115179710347745,
+        "Taiwan": 0.0010565436911249043,
+        "China": 0.0010497983962811654,
+        "Cyprus": 0.0010484534115702071
+      },
+      "country_entropy": 0.2607460237777518,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9961899671801184,
+        "GSC": 0.0038100328198816123
+      },
+      "accession_entropy": 0.025025095800434684
+    },
+    "FCoV1_C1Je_United_Kingdom_2002_DQ848678": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000027": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 0.9999990675895593
+      },
+      "country_entropy": 1.5264172272456772e-05,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999982477691615
+      },
+      "accession_entropy": 2.497738265137875e-05
+    },
+    "NODE_0000028": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 0.9999999971114206
+      },
+      "country_entropy": 6.528513356894415e-08,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999675404663
+      },
+      "accession_entropy": 5.921660909693911e-07
+    },
+    "FCoV1_67F_United_Kingdom_2013_KP143510": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_65F_United_Kingdom_2013_KP143509": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000029": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 0.9999999971094629
+      },
+      "country_entropy": 6.532714216187411e-08,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999674666313
+      },
+      "accession_entropy": 5.934391610195694e-07
+    },
+    "FCoV1_80F_United_Kingdom_2013_KP143511": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000030": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 0.9999999977933035
+      },
+      "country_entropy": 5.0754614626721256e-08,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999714444237
+      },
+      "accession_entropy": 5.246043029277447e-07
+    },
+    "FCoV1_26M_United_Kingdom_2013_KP143512": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_27C_United_Kingdom_2013_KP143507": {
+      "country": "United Kingdom",
+      "country_confidence": {
+        "United Kingdom": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000025": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.8156000567628084,
+        "United Kingdom": 0.09745726811019252,
+        "Germany": 0.05223830671553633,
+        "Netherlands": 0.016195511343141167,
+        "Brazil": 0.004938793451413285,
+        "Colombia": 0.003387426633461746,
+        "Australia": 0.0026469189638294475,
+        "Taiwan": 0.002624351008566758,
+        "China": 0.0024581988941363942,
+        "Cyprus": 0.002453168116913987
+      },
+      "country_entropy": 0.7204501771557199,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9993464831228129
+      },
+      "accession_entropy": 0.0054456354766154276
+    },
+    "FCoV1_felix_Germany_2012_MG893511": {
+      "country": "Germany",
+      "country_confidence": {
+        "Germany": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9747075075864349,
+        "Netherlands": 0.01188930303641976,
+        "United Kingdom": 0.005738651837846111,
+        "Brazil": 0.0033782240909625456,
+        "Germany": 0.0030651281429734537
+      },
+      "country_entropy": 0.15434479681906668,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999847462923168
+      },
+      "accession_entropy": 0.00018442770145754605
+    },
+    "NODE_0000024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.713274707851827,
+        "Netherlands": 0.1900161815247519,
+        "Brazil": 0.07297674016211515,
+        "United Kingdom": 0.005806768801771896,
+        "Germany": 0.004078841997638626,
+        "Australia": 0.003386673846956093,
+        "Colombia": 0.0032599743743163627,
+        "Taiwan": 0.0024850329386336104,
+        "China": 0.0023588301246597805,
+        "Cyprus": 0.002356248377329319
+      },
+      "country_entropy": 0.8812816598017686,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9988042650325621,
+        "GSC": 0.001195734967437831
+      },
+      "accession_entropy": 0.009241113506267625
+    },
+    "FCoV1_UU15_Netherlands_2007_FJ938057": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_SB22_Brazil_2016_MH817484": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000022": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9956329299167145,
+        "Netherlands": 0.0033032029539914937
+      },
+      "country_entropy": 0.032181291615166766,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999857669145432
+      },
+      "accession_entropy": 0.00017307338097551032
+    },
+    "NODE_0000031": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9763338598679725,
+        "Taiwan": 0.014178089130993382,
+        "Netherlands": 0.00535671816494062
+      },
+      "country_entropy": 0.14236890021492316,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9659267773282117,
+        "GSC": 0.034073222671788334
+      },
+      "accession_entropy": 0.14862773760904424
+    },
+    "FCoV2_NTU156_Taiwan_2007_GQ152141": {
+      "country": "Taiwan",
+      "country_confidence": {
+        "Taiwan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000032": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999980588869396
+      },
+      "country_entropy": 3.0274909719746672e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9998978023627112
+      },
+      "accession_entropy": 0.0010412458272137219
+    },
+    "NODE_0000033": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999666234126
+      },
+      "country_entropy": 6.47470081521623e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999991569716616
+      },
+      "accession_entropy": 1.2633843948385127e-05
+    },
+    "FCoV1_1197_1_NY_USA_6FEB23": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000034": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999786635948
+      },
+      "country_entropy": 4.241899309274097e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999265229945
+      },
+      "accession_entropy": 1.280429844992141e-06
+    },
+    "FCoV1_1197_3_NY_USA_5APRIL23": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_1197_4_NY_USA_11JULY23": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000035": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999671391697
+      },
+      "country_entropy": 6.379398395511646e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999991664855182
+      },
+      "accession_entropy": 1.2500726745798666e-05
+    },
+    "NODE_0000036": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999719744839
+      },
+      "country_entropy": 5.495698554078308e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.999999906071989
+      },
+      "accession_entropy": 1.6137504667019862e-06
+    },
+    "FCoV1_1197_5_NY_USA_24JUNE24": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "FCoV1_1197_6_NY_USA_27JUNE24": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000037": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.999999969562413
+      },
+      "country_entropy": 5.943442146406731e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999998954556831
+      },
+      "accession_entropy": 1.7849515694919985e-06
+    },
+    "FCoV1_1197_17_NY_USA_2FEB25": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000038": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999564844
+      },
+      "country_entropy": 1.1052429922376126e-09,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999996124818
+      },
+      "accession_entropy": 8.783528992493802e-09
+    },
+    "FCoV1_1197_9_NY_USA_23SEPT24": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000039": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999786886405
+      },
+      "country_entropy": 4.237295501499114e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999307544384
+      },
+      "accession_entropy": 1.2107986591013714e-06
+    },
+    "FCoV1_1197_22_NY_USA_6JUNE25": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000040": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999786887419
+      },
+      "country_entropy": 4.2372770063772276e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999307565586
+      },
+      "accession_entropy": 1.2107637070946554e-06
+    },
+    "FCoV1_1197_24_NY_USA_2JULY25": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_1197_21_NY_USA_7APRIL25": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000042": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999786885422
+      },
+      "country_entropy": 4.237313430035328e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999307523542
+      },
+      "accession_entropy": 1.2108330190807266e-06
+    },
+    "FCoV1_1197_18_NY_USA_16FEB25": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000043": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.999999978645295
+      },
+      "country_entropy": 4.245286499465435e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999303756257
+      },
+      "accession_entropy": 1.2170425811206835e-06
+    },
+    "FCoV1_1197_13_NY_USA_10DEC24": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000044": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999786886435
+      },
+      "country_entropy": 4.2372948940339515e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999307544859
+      },
+      "accession_entropy": 1.21079787497766e-06
+    },
+    "FCoV1_1197_11_NY_USA_20OCT24": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "FCoV1_1197_16_NY_USA_13JAN25": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000021": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9979013084121058,
+        "Netherlands": 0.0020831875405075274
+      },
+      "country_entropy": 0.015155832322964807,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999963827347198
+      },
+      "accession_entropy": 4.894083926620252e-05
+    },
+    "NODE_0000015": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.98368129090639,
+        "Netherlands": 0.016136700386896383
+      },
+      "country_entropy": 0.08462962750964219,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9984822324034048,
+        "GSC": 0.0015177675965951682
+      },
+      "accession_entropy": 0.011367708114480079
+    },
+    "NODE_0000016": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.8772692424912663,
+        "USA": 0.12192337331050143
+      },
+      "country_entropy": 0.37884040090042465,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9995989364141735
+      },
+      "accession_entropy": 0.0035378580972644067
+    },
+    "NODE_0000017": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9995044425261405
+      },
+      "country_entropy": 0.004380523506957442,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999234909235784
+      },
+      "accession_entropy": 0.0008016669148976653
+    },
+    "FCoV1_UU31_Netherlands_2008_HQ012371": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_UU30_Netherlands_2008_HQ392472": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000018": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9881781814590267,
+        "USA": 0.011654150994598258
+      },
+      "country_entropy": 0.06543524214197739,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9996596163762053
+      },
+      "accession_entropy": 0.003058437760649756
+    },
+    "FCoV1_UU9_Netherlands_2007_FJ938062": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000019": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9997815252281644
+      },
+      "country_entropy": 0.0021196593698600474,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999142609275034
+      },
+      "accession_entropy": 0.0008886133816162289
+    },
+    "FCoV1_UU8_Netherlands_2007_FJ938055": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000020": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999997683477171
+      },
+      "country_entropy": 3.907112273113992e-06,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999996542935059
+      },
+      "accession_entropy": 5.4890135437873374e-06
+    },
+    "FCoV1_UU11_Netherlands_2007_FJ938052": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "FCoV1_UU10_Netherlands_2007_FJ938059": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000014": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9904084378858267,
+        "Netherlands": 0.00881744538860248
+      },
+      "country_entropy": 0.05758244464261828,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9460809790823824,
+        "GSC": 0.053919020917617605
+      },
+      "accession_entropy": 0.20989674187994362
+    },
+    "FCoV1_1327_2_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000007": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9809005732697456,
+        "Cyprus": 0.008807194289591532,
+        "Netherlands": 0.008392486670174542
+      },
+      "country_entropy": 0.1162593489883421,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9310115900634892,
+        "GSC": 0.0689884099365107
+      },
+      "accession_entropy": 0.2510143828565331
+    },
+    "NODE_0000008": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 0.9999999728726396
+      },
+      "country_entropy": 5.173554935150714e-07,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999783050283
+      },
+      "accession_entropy": 4.0452646424565456e-07
+    },
+    "FCoV23_H8_So_8842_2023_Cyprus_PQ133194": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000009": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 0.9999999999962341
+      },
+      "country_entropy": 1.0499451134187473e-10,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999998262742
+      },
+      "accession_entropy": 4.075964433414802e-09
+    },
+    "FCoV23_C8_Wi_8299_2023_Cyprus_PQ133181": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV23_F9_Fe_9265_2023_Cyprus_PQ133190": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV23_A9_Do_9045_2023_Cyprus_PQ133179": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000012": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 0.9999999963841487
+      },
+      "country_entropy": 8.14060720791722e-08,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999523464025
+      },
+      "accession_entropy": 8.510582600066543e-07
+    },
+    "FCoV23_F12_BW_11350_2023_Cyprus_PQ133177": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000013": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 0.9999999965295178
+      },
+      "country_entropy": 7.829982584496805e-08,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999538784001
+      },
+      "accession_entropy": 8.252049469770939e-07
+    },
+    "FCoV23_E9_Mi_9160_2023_Cyprus_PQ133188": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV23_D9_Ni_9183_2023_Cyprus_PQ133185": {
+      "country": "Cyprus",
+      "country_confidence": {
+        "Cyprus": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999981716721937
+      },
+      "country_entropy": 2.8303953985008282e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9998901725300346
+      },
+      "accession_entropy": 0.0011110745360327426
+    },
+    "FCoV1_CSU5_Ascites_WY_USA_2023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000001": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999484948
+      },
+      "country_entropy": 1.298399537942358e-09,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.999999996244082
+      },
+      "accession_entropy": 7.661847708599681e-08
+    },
+    "FCoV1_CSU11_Pleural_fluid_WY_USA_2023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000002": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999787319706
+      },
+      "country_entropy": 4.229306273352139e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999311148691
+      },
+      "accession_entropy": 1.204855799577757e-06
+    },
+    "FCoV1_CSU12_whole_blood_WY_USA_2023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_CSU12_pleural_fluid_WY_USA_2023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000004": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999786885235
+      },
+      "country_entropy": 4.237316799337758e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999307338235
+      },
+      "accession_entropy": 1.211138506752271e-06
+    },
+    "FCoV1_CSU7_lymph_node_WY_USA_2023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000041": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.999999978645295
+      },
+      "country_entropy": 4.2452865073387975e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999303755238
+      },
+      "accession_entropy": 1.2170442611048893e-06
+    },
+    "FCoV1_CSU7_Spleen_WY_USA_2023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000052": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999786886437
+      },
+      "country_entropy": 4.2372948929432203e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999307544853
+      },
+      "accession_entropy": 1.2107978841698177e-06
+    },
+    "FCoV1_CSU7_kidney_WY_USA_2023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_CSU7_GI_loop_WY_USA_2023": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000045": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9995543695759879
+      },
+      "country_entropy": 0.003909933314513787,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999820742565916
+      },
+      "accession_entropy": 0.0002138409187855326
+    },
+    "NODE_0000046": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9997186208808477
+      },
+      "country_entropy": 0.0028249480052482644,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9997872552553031
+      },
+      "accession_entropy": 0.002011567746696276
+    },
+    "NODE_0000047": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9986168910846271
+      },
+      "country_entropy": 0.012325317447907852,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9890732847540957,
+        "GSC": 0.010926715245904186
+      },
+      "accession_entropy": 0.06021779624197837
+    },
+    "FCoV1_FM3_USA_2020_sand_cat_OP542206": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000048": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9855829702968268,
+        "Colombia": 0.00856425398030945,
+        "China": 0.003847116378473501,
+        "Netherlands": 0.0010725996430110533
+      },
+      "country_entropy": 0.09198202030377219,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9188725358605075,
+        "GSC": 0.08112746413949239
+      },
+      "accession_entropy": 0.2815144315426624
+    },
+    "FCoV1_2610_M28_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000049": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9715843681736885,
+        "China": 0.018711658128906312,
+        "Colombia": 0.004930289241561364,
+        "Netherlands": 0.0025398570433896183
+      },
+      "country_entropy": 0.1614546528960655,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.8908679043851885,
+        "GSC": 0.10913209561481158
+      },
+      "accession_entropy": 0.34469691756847465
+    },
+    "NODE_0000050": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999932129360569
+      },
+      "country_entropy": 9.811876637508989e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9994486745193003
+      },
+      "accession_entropy": 0.004687870665832219
+    },
+    "FCoV2_178_3_TN_USA_2011": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV2_186_5_TN_USA_2011": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000051": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999802895069
+      },
+      "country_entropy": 3.7954474353013894e-07,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999794592919
+      },
+      "accession_entropy": 3.8412684952183825e-07
+    },
+    "FCoV1_11HRBef_China_2016_KY566210": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_13HRBef_China_2016_KY566211": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_HLJ_HRB_China_2016_KY566209": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000053": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9818532554471269,
+        "Australia": 0.017584930197040622
+      },
+      "country_entropy": 0.09361426343893507,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.998951268107965,
+        "GSC": 0.0010487318920351294
+      },
+      "accession_entropy": 0.008242664582560219
+    },
+    "NODE_0000054": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9978262897934502,
+        "Australia": 0.0018518711139928097
+      },
+      "country_entropy": 0.016750353640078847,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.6299075987545866,
+        "not_GSC": 0.3700924012454134
+      },
+      "accession_entropy": 0.6590048398641049
+    },
+    "FCoV2_DC_597_PA_USA_2016": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000055": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9995531852081583
+      },
+      "country_entropy": 0.004510062202927333,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.8967302725951652,
+        "not_GSC": 0.10326972740483482
+      },
+      "accession_entropy": 0.3322084697777243
+    },
+    "FCoV1_DC_344_AR_USA_2013": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000056": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9998255033931863
+      },
+      "country_entropy": 0.0019136507460645804,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9921805233734766,
+        "not_GSC": 0.00781947662652332
+      },
+      "accession_entropy": 0.045722182017401206
+    },
+    "FCoV2_DC_344_AR_USA_2013": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV2_DC_346_AR_USA_2013": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000057": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.7933103595236551,
+        "USA": 0.20195718105647956,
+        "Netherlands": 0.0045020131112126225
+      },
+      "country_entropy": 0.5334566357109848,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9998670766845754
+      },
+      "accession_entropy": 0.0013193531891339998
+    },
+    "NODE_0000058": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9815936894394607,
+        "USA": 0.016885548993625855
+      },
+      "country_entropy": 0.09936910937445889,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9995012970372114
+      },
+      "accession_entropy": 0.00429046651767972
+    },
+    "FCoV1_FPV3_2017_Australia_ON595855": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000059": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9998552018514243
+      },
+      "country_entropy": 0.0015750328273466598,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9998104924607497
+      },
+      "accession_entropy": 0.0018137741905792574
+    },
+    "FCoV1_HC5_2018_Australia_ON595866": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000060": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9999999516742759
+      },
+      "country_entropy": 9.546891341098188e-07,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.999999560444717
+      },
+      "accession_entropy": 6.873544670894909e-06
+    },
+    "FCoV1_FPV1_2017_Australia_ON595853": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000061": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9999999972228835
+      },
+      "country_entropy": 6.306743040359426e-08,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999704533562
+      },
+      "accession_entropy": 5.418035429137592e-07
+    },
+    "FCoV1_HC6_2018_Australia_ON595867": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000062": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9999999972591006
+      },
+      "country_entropy": 6.228822471561377e-08,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999714512039
+      },
+      "accession_entropy": 5.244865189587658e-07
+    },
+    "FCoV1_HC7_2018_Australia_ON595868": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "FCoV1_HC2_2018_Australia_ON595863": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000063": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.8253571976699265,
+        "USA": 0.15410365411496704,
+        "Netherlands": 0.019739770787828043
+      },
+      "country_entropy": 0.5313439339299817,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999566180219384
+      },
+      "accession_entropy": 0.000479173240426389
+    },
+    "NODE_0000064": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9878347332810289,
+        "Australia": 0.006869214941628458,
+        "USA": 0.004695040187209101
+      },
+      "country_entropy": 0.07710079482053477,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9996725571103885
+      },
+      "accession_entropy": 0.002954855492398225
+    },
+    "FCoV1_UU17_Netherlands_2007_HQ012367": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000065": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999986731214012
+      },
+      "country_entropy": 2.0418058830309236e-05,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999994451989662
+      },
+      "accession_entropy": 8.546517079008677e-06
+    },
+    "FCoV1_UU23_Netherlands_2007_GU553362": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_UU22_Netherlands_2007_GU553361": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000066": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9976169917477437,
+        "USA": 0.0020537001362380346
+      },
+      "country_entropy": 0.01795625470861889,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999740276969608
+      },
+      "accession_entropy": 0.0003002000021952107
+    },
+    "NODE_0000067": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9997764541590726
+      },
+      "country_entropy": 0.0022563498396770366,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9998820675287846
+      },
+      "accession_entropy": 0.0011846716984170228
+    },
+    "FCoV1_FPV6_2017_Australia_ON595858": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000068": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9999639228469025
+      },
+      "country_entropy": 0.0004726640963926957,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9997140580386698
+      },
+      "accession_entropy": 0.0026191079008802257
+    },
+    "FCoV1_FPV4_2017_Australia_ON595856": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_FPV5_2017_Australia_ON595857": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000069": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9998409955367538
+      },
+      "country_entropy": 0.0017395501743951067,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9996088798410001
+      },
+      "accession_entropy": 0.0034599663182857494
+    },
+    "FCoV1_FPV2_Australia_2017_ON595854": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000070": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 0.9999994365051639
+      },
+      "country_entropy": 9.79871436516832e-06,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999943810399998
+      },
+      "accession_entropy": 7.354859475690911e-05
+    },
+    "FCoV1_HC1_2018_Australia_ON595871": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_HC8_2018_Australia_ON595869": {
+      "country": "Australia",
+      "country_confidence": {
+        "Australia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000071": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.998166325030021
+      },
+      "country_entropy": 0.014756812049640614,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9987455085033461,
+        "GSC": 0.0012544914966538694
+      },
+      "accession_entropy": 0.009634993305316433
+    },
+    "NODE_0000072": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9979743659943927,
+        "Netherlands": 0.0019984240095488356
+      },
+      "country_entropy": 0.014738303246601627,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9997714425264033
+      },
+      "accession_entropy": 0.002144693865117573
+    },
+    "NODE_0000073": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9979572105915592,
+        "Netherlands": 0.002040748003380965
+      },
+      "country_entropy": 0.01471232929709388,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999814533103217
+      },
+      "accession_entropy": 0.00022061676588786046
+    },
+    "NODE_0000074": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9993771633572709
+      },
+      "country_entropy": 0.005245541906963466,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999830855755018
+      },
+      "accession_entropy": 0.00020275887624333946
+    },
+    "NODE_0000075": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9993244708061748
+      },
+      "country_entropy": 0.006382148921812268,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9993701367573297
+      },
+      "accession_entropy": 0.005271761870045581
+    },
+    "FCoV2_79_1146_USA_1979_AY994055": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV2_WSU_79_1683_USA_1979_JN634064": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000076": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9993099551194146
+      },
+      "country_entropy": 0.006464210730918656,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9994073376454541
+      },
+      "accession_entropy": 0.004996492912611504
+    },
+    "FCoV1_UU2_USA_1993_FJ938060": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_RM_USA_2002_FJ938051": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000077": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9103182463595246,
+        "Netherlands": 0.08937639044885644
+      },
+      "country_entropy": 0.3044645667834517,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9983179949271336,
+        "GSC": 0.0016820050728664705
+      },
+      "accession_entropy": 0.012424849066719684
+    },
+    "FCoV1_UU24_Netherlands_2008_HQ012370": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000078": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.8890745925430592,
+        "Netherlands": 0.1098974876327587
+      },
+      "country_entropy": 0.3563854301138138,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9683680761002555,
+        "GSC": 0.031631923899744514
+      },
+      "accession_entropy": 0.14036992053830885
+    },
+    "FCoV1_UU20_Netherlands_2007_HQ392471": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000079": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9998402542556073
+      },
+      "country_entropy": 0.0016083845285044874,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9974275509774001,
+        "not_GSC": 0.002572449022599807
+      },
+      "accession_entropy": 0.01790838575237086
+    },
+    "FCoV1_OM1164_pallas_cat_USA_2008_PP854701": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_DCB091_USA_2008_PP854702": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000080": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9507617820310945,
+        "Netherlands": 0.04910152396414911
+      },
+      "country_entropy": 0.1974838087093308,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9962492398534737,
+        "GSC": 0.0037507601465263294
+      },
+      "accession_entropy": 0.024694701083504307
+    },
+    "FCoV1_UU5_Netherlands_2007_FJ938056": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000081": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9477296491175149,
+        "Netherlands": 0.052027794825408216
+      },
+      "country_entropy": 0.2071860952745481,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9776033340625101,
+        "GSC": 0.02239666593748996
+      },
+      "accession_entropy": 0.10722538845888072
+    },
+    "NODE_0000082": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9992504053309108
+      },
+      "country_entropy": 0.00628096959781839,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 0.9999605570030332
+      },
+      "accession_entropy": 0.0004394200037457235
+    },
+    "FCoV1_UU7_Netherlands_2007_FJ938053": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_UU4_Netherlands_2007_FJ938054": {
+      "country": "Netherlands",
+      "country_confidence": {
+        "Netherlands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "not_GSC",
+      "accession_confidence": {
+        "not_GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000083": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9967392081602868,
+        "Netherlands": 0.003144263622722591
+      },
+      "country_entropy": 0.0226654361808444,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.8993048428181052,
+        "not_GSC": 0.10069515718189477
+      },
+      "accession_entropy": 0.32660771065877514
+    },
+    "FCoV1_1326_1_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000084": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999883772231998
+      },
+      "country_entropy": 0.00015013570335149545,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9993150387668124
+      },
+      "accession_entropy": 0.0056754557268233205
+    },
+    "NODE_0000085": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.999986738379964
+      },
+      "country_entropy": 0.00017861787603383434,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999184568987521
+      },
+      "accession_entropy": 0.0008492174204633508
+    },
+    "FCoV1_1320_2_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000086": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999997976492312
+      },
+      "country_entropy": 3.5696390817559586e-06,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999993288756953
+      },
+      "accession_entropy": 1.0210691978630213e-05
+    },
+    "FCoV1_1302_1_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_1304_1_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000087": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999905222533991
+      },
+      "country_entropy": 0.00012876001815516707,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9996864143185826
+      },
+      "accession_entropy": 0.002843369526632536
+    },
+    "FCoV1_1305_1_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000088": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999996944676829
+      },
+      "country_entropy": 5.2671778002688475e-06,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999989429749613
+      },
+      "accession_entropy": 1.5601742149920866e-05
+    },
+    "FCoV1_1306_1_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000089": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 0.9999999781136221
+      },
+      "country_entropy": 4.343292498369746e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.999999925352164
+      },
+      "accession_entropy": 1.2996529753881865e-06
+    },
+    "FCoV1_1308_1_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_1308_3_FL_USA_2024": {
+      "country": "USA",
+      "country_confidence": {
+        "USA": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000090": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.8967009419135356,
+        "USA": 0.10150203832494678
+      },
+      "country_entropy": 0.34484455910536965,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.6492085835471622,
+        "not_GSC": 0.3507914164528378
+      },
+      "accession_entropy": 0.6479351807536791
+    },
+    "FCoV1_2069_M1H_DC_BUC_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000091": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9958479017683078,
+        "USA": 0.003979736791922617
+      },
+      "country_entropy": 0.027974229885090938,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9437067156875378,
+        "not_GSC": 0.05629328431246225
+      },
+      "accession_entropy": 0.21664413327363188
+    },
+    "NODE_0000092": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999993835376826
+      },
+      "country_entropy": 1.0251331130910119e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.999975853784619
+      },
+      "accession_entropy": 0.00028085358323584267
+    },
+    "FCoV1_2357_M23MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000093": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999954176
+      },
+      "country_entropy": 1.2552986459925203e-10,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999989387323
+      },
+      "accession_entropy": 2.29890954139604e-08
+    },
+    "FCoV1_2396_M17MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_2396_M12MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000095": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999967177269
+      },
+      "country_entropy": 7.307945624404082e-08,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999311296124
+      },
+      "accession_entropy": 1.2046126715515565e-06
+    },
+    "FCoV1_2364_M37MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_2357_M28MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000096": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999159120960843
+      },
+      "country_entropy": 0.0009134893060817888,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9954444241111092,
+        "not_GSC": 0.00455557588889081
+      },
+      "accession_entropy": 0.029106130458040357
+    },
+    "FCoV1_2598_M44_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000097": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999996763298431
+      },
+      "country_entropy": 5.564384506479149e-06,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.999942431689438
+      },
+      "accession_entropy": 0.0006195794885209113
+    },
+    "NODE_0000098": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999997212987803
+      },
+      "country_entropy": 4.955654237308391e-06,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999745130386521
+      },
+      "accession_entropy": 0.0002950709809330028
+    },
+    "NODE_0000099": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999942054303076
+      },
+      "country_entropy": 8.5975072262894e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.999889594225965
+      },
+      "accession_entropy": 0.0011163451192756789
+    },
+    "FCoV1_2610_M25_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "FCoV1_2598_M47_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000100": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999937416768002
+      },
+      "country_entropy": 9.240130260989084e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9998799934323174
+      },
+      "accession_entropy": 0.001203414347729094
+    },
+    "FCoV1_2601_M54_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000101": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999453526429
+      },
+      "country_entropy": 1.064258168166631e-06,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999988783321058
+      },
+      "accession_entropy": 1.6489293617868975e-05
+    },
+    "FCoV1_2357_M21MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_2364_M40MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000102": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999990373944354
+      },
+      "country_entropy": 1.5980212517125333e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999761930631237
+      },
+      "accession_entropy": 0.0002772441968332037
+    },
+    "NODE_0000103": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999982673262916
+      },
+      "country_entropy": 2.7770291027144112e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.999963099308721
+      },
+      "accession_entropy": 0.0004135557066015425
+    },
+    "FCoV1_2610_M20_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999999999999
+      },
+      "accession_entropy": -9.99866855976916e-13
+    },
+    "FCoV1_2598_M42_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000104": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999991583926869
+      },
+      "country_entropy": 1.4091616534987435e-05,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999829519175367
+      },
+      "accession_entropy": 0.0002042268932867205
+    },
+    "NODE_0000105": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999820314548
+      },
+      "country_entropy": 3.6963657084653115e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999996141454243
+      },
+      "accession_entropy": 6.084077742403171e-06
+    },
+    "FCoV1_2357_M25MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_2396_M16MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000106": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999799294724
+      },
+      "country_entropy": 4.1064095235453346e-07,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999995644462267
+      },
+      "accession_entropy": 6.814954294460935e-06
+    },
+    "FCoV1_2599_M12_2_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000107": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999965207257
+      },
+      "country_entropy": 7.725763528838046e-08,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999248930664
+      },
+      "accession_entropy": 1.307185575915102e-06
+    },
+    "FCoV1_2610_M22_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000108": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.999999999997103
+      },
+      "country_entropy": 7.977911075290412e-11,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 0.9999999996176275
+      },
+      "accession_entropy": 8.671979256075905e-09
+    },
+    "FCoV1_2610_M27_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_2564_M5MF_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    },
+    "FCoV1_2598_M18_2_MED_COL": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "accession": "GSC",
+      "accession_confidence": {
+        "GSC": 1.0
+      },
+      "accession_entropy": -1.000088900581841e-12
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "31.4.0"
+  }
+}

@@ -1,0 +1,141 @@
+curl -fsSL --proto '=https' https://nextstrain.org/cli/installer/mac | bash
+
+nextstrain setup --set-default docker
+
+nextstrain shell .
+
+augur --help
+
+auspice --help
+
+
+augur index \
+  --sequences data/FCoV1_FCoV2_USA_Cyprus_ORF1a_28.txt \
+  --output results/sequence_index.tsv
+
+>>>Did not do this one
+augur filter \
+  --sequences data/sequences.fasta \
+  --sequence-index results/sequence_index.tsv \
+  --metadata data/metadata.tsv \
+  --exclude config/dropped_strains.txt \
+  --output results/filtered.fasta \
+  --group-by country year month \
+  --sequences-per-group 20 \
+  --min-date 2012
+
+augur align \
+  --sequences data/FCoV1_FCoV2_USA_Cyprus_ORF1a_28.txt \
+  --output results/aligned.fasta \
+  --fill-gaps
+
+augur tree \
+  --alignment results/aligned.fasta \
+  --output results/tree_raw.nwk
+
+augur refine \
+  --tree results/tree_raw.nwk \
+  --alignment results/aligned.fasta \
+  --metadata data/FCoV1_FCoV2_USA_Cyprus_ORF1a_28_metadata.txt \
+  --output-tree results/tree.nwk \
+  --output-node-data results/branch_lengths.json \
+  --timetree \
+  --coalescent opt \
+  --date-confidence \
+  --date-inference marginal \
+  --clock-filter-iqd 4
+
+>>>i got these results for the 61 file
+
+0.33	TreeTime.reroot: with method or node: least-squares
+
+0.33	TreeTime.reroot: rerooting will ignore covariance and shared ancestry.
+
+0.36	TreeTime.reroot: with method or node: least-squares
+
+0.38	TreeTime.reroot: rerooting will ignore covariance and shared ancestry.
+pruning leaf  FCoV1_OM1164
+
+1.76	TreeTime.reroot: with method or node: least-squares
+
+1.76	TreeTime.reroot: rerooting will account for covariance and shared ancestry.
+
+2.68	###TreeTime.run: INITIAL ROUND
+
+5.42	TreeTime.reroot: with method or node: least-squares
+
+5.42	TreeTime.reroot: rerooting will account for covariance and shared ancestry.
+
+5.45	###TreeTime.run: rerunning timetree after rerooting
+
+8.61	###TreeTime.run: ITERATION 1 out of 2 iterations
+
+8.75	DEPRECATION WARNING. TreeTime.resolve_polytomies: You are resolving
+    	polytomies using the old 'greedy' mode. This is not well suited for large
+    	polytomies. Stochastic resolution will become the default in future
+    	versions. To switch now, rerun with the flag `--stochastic-resolve`. To
+    	keep using the greedy method in the future, run with `--greedy-resolve`
+
+12.49	###TreeTime.run: ITERATION 2 out of 2 iterations
+
+24.56	###TreeTime.run: FINAL ROUND - confidence estimation via marginal
+     	reconstruction
+
+Inferred a time resolved phylogeny using TreeTime:
+	Sagulenko et al. TreeTime: Maximum-likelihood phylodynamic analysis
+	Virus Evolution, vol 4, https://academic.oup.com/ve/article/4/1/vex042/4794731
+
+
+
+augur traits \
+  --tree results/tree.nwk \
+  --metadata data/FCoV1_FCoV2_USA_Cyprus_ORF1a_28_metadata.txt \
+  --output-node-data results/traits.json \
+  --columns country state \
+  --confidence
+
+augur ancestral \
+  --tree results/tree.nwk \
+  --alignment results/aligned.fasta \
+  --output-node-data results/nt_muts.json \
+  --inference joint
+
+>>>FOR THIS MAKE SURE ALI IS IN FRAME
+augur translate \
+  --tree results/tree.nwk \
+  --ancestral-sequences results/nt_muts.json \
+  --reference-sequence config/zika_outgroup.gb \
+  --output-node-data results/aa_muts.json
+
+
+augur export v2 \
+  --tree results/tree.nwk \
+  --metadata data/FCoV1_FCoV2_USA_Cyprus_ORF1a_28_metadata.txt \
+  --node-data results/branch_lengths.json \
+              results/traits.json \
+              results/nt_muts.json \
+  --colors config/colors.txt \
+  --lat-longs config/lat_longs.tsv \
+  --auspice-config config/auspice_config3.json \
+  --output auspice/FCoV28.json
+
+>>>>DO NOT FORGET TO EXIT
+exit
+
+nextstrain view auspice/
+
+>>>This appears in auspice
+
+[warning]	Failed to read /nextstrain/auspice/data/FCoV61_root-sequence.json
+[verbose]	Error: ENOENT: no such file or directory, open '/nextstrain/auspice/data/FCoV61_root-sequence.json'
+
+
+>>> TO STOP
+
+control + C
+
+These are the current Auspice access links
+
+       • http://127.0.0.1:4000/FCoV28
+       • http://127.0.0.1:4000/FCoV35
+       • http://127.0.0.1:4000/FCoV61

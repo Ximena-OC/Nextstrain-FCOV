@@ -1,0 +1,370 @@
+{
+  "alignment": "results/aligned.fasta",
+  "generated_by": {
+    "program": "augur",
+    "version": "28.0.0"
+  },
+  "input_tree": "results/tree_raw.nwk",
+  "nodes": {
+    "1302_1": {
+      "branch_length": 0.00342646
+    },
+    "1304_1": {
+      "branch_length": 0.0008575
+    },
+    "1305_1": {
+      "branch_length": 0.02401022
+    },
+    "1308_1": {
+      "branch_length": 0.01766605
+    },
+    "1326_1": {
+      "branch_length": 0.02796102
+    },
+    "1327_2": {
+      "branch_length": 0.05227302
+    },
+    "CSU11_PF": {
+      "branch_length": 0.00028765
+    },
+    "CSU12_PF": {
+      "branch_length": 9.543e-05
+    },
+    "CSU12_WB": {
+      "branch_length": 1e-06
+    },
+    "CSU5_as": {
+      "branch_length": 0.00019618
+    },
+    "CSU7_GI": {
+      "branch_length": 0.0
+    },
+    "CSU7_MLN": {
+      "branch_length": 9.543e-05
+    },
+    "CSU7_Sp": {
+      "branch_length": 1e-06
+    },
+    "CSU7_kid": {
+      "branch_length": 0.0
+    },
+    "FCoV111HRBef": {
+      "branch_length": 1e-06
+    },
+    "FCoV113HRBef": {
+      "branch_length": 9.543e-05
+    },
+    "FCoV11HRBef": {
+      "branch_length": 0.05161895
+    },
+    "FCoV126M": {
+      "branch_length": 1e-06
+    },
+    "FCoV127C": {
+      "branch_length": 1e-06
+    },
+    "FCoV165F": {
+      "branch_length": 0.0005779
+    },
+    "FCoV167F": {
+      "branch_length": 9.67e-05
+    },
+    "FCoV180F": {
+      "branch_length": 9.643e-05
+    },
+    "FCoV1C1Je": {
+      "branch_length": 0.07733947
+    },
+    "FCoV1HLJHRB": {
+      "branch_length": 1e-06
+    },
+    "FCoV1SB22": {
+      "branch_length": 0.05402253
+    },
+    "FCoV1UU10": {
+      "branch_length": 0.00104823
+    },
+    "FCoV1UU11": {
+      "branch_length": 0.00080503
+    },
+    "FCoV1UU15": {
+      "branch_length": 0.04219924
+    },
+    "FCoV1UU17": {
+      "branch_length": 0.01867837
+    },
+    "FCoV1UU20": {
+      "branch_length": 0.03873858
+    },
+    "FCoV1UU22": {
+      "branch_length": 1e-06
+    },
+    "FCoV1UU23": {
+      "branch_length": 0.00028794
+    },
+    "FCoV1UU24": {
+      "branch_length": 0.04907574
+    },
+    "FCoV1UU30": {
+      "branch_length": 0.01352434
+    },
+    "FCoV1UU31": {
+      "branch_length": 0.00988348
+    },
+    "FCoV1UU4": {
+      "branch_length": 0.00569403
+    },
+    "FCoV1UU5": {
+      "branch_length": 0.04543222
+    },
+    "FCoV1UU7": {
+      "branch_length": 0.0033606
+    },
+    "FCoV1UU8": {
+      "branch_length": 0.01365831
+    },
+    "FCoV1UU9": {
+      "branch_length": 0.03264903
+    },
+    "FCoV1_344_6": {
+      "branch_length": 0.03451814
+    },
+    "FCoV1_DCB091": {
+      "branch_length": 0.00439158
+    },
+    "FCoV1_FM3": {
+      "branch_length": 0.04973329
+    },
+    "FCoV1_OM1164": {
+      "branch_length": 0.00296177
+    },
+    "FCoV1_RM": {
+      "branch_length": 0.05096426
+    },
+    "FCoV1_UU2": {
+      "branch_length": 0.0442159
+    },
+    "FCoV1felix": {
+      "branch_length": 0.04749035
+    },
+    "FCoV23_A9_Do_9045": {
+      "branch_length": 0.00271152
+    },
+    "FCoV23_C11_Re_10276": {
+      "branch_length": 0.00125038
+    },
+    "FCoV23_C8_Wi_8299": {
+      "branch_length": 0.00077877
+    },
+    "FCoV23_D8_Ta_8364": {
+      "branch_length": 0.00057619
+    },
+    "FCoV23_D9_Ni_9183": {
+      "branch_length": 0.00192474
+    },
+    "FCoV23_E9_Mi_9160": {
+      "branch_length": 0.000481
+    },
+    "FCoV23_F11_Gi_6590": {
+      "branch_length": 0.00057615
+    },
+    "FCoV23_F12_BW_11350": {
+      "branch_length": 0.00269483
+    },
+    "FCoV23_F9_Fe_9265": {
+      "branch_length": 0.00104899
+    },
+    "FCoV23_H8_So_8842": {
+      "branch_length": 0.00182758
+    },
+    "FCoV2NTU156": {
+      "branch_length": 0.05097637
+    },
+    "FCoV2_344": {
+      "branch_length": 0.0195905
+    },
+    "FCoV2_346": {
+      "branch_length": 0.0223404
+    },
+    "FCoV2_597": {
+      "branch_length": 0.04852464
+    },
+    "NODE_0000000": {
+      "branch_length": 0.001
+    },
+    "NODE_0000001": {
+      "branch_length": 0.0457562
+    },
+    "NODE_0000002": {
+      "branch_length": 0.00010137
+    },
+    "NODE_0000003": {
+      "branch_length": 9.127e-05
+    },
+    "NODE_0000004": {
+      "branch_length": 0.00048194
+    },
+    "NODE_0000005": {
+      "branch_length": 0.04461216
+    },
+    "NODE_0000006": {
+      "branch_length": 0.03309504
+    },
+    "NODE_0000007": {
+      "branch_length": 0.00818862
+    },
+    "NODE_0000008": {
+      "branch_length": 0.01074846
+    },
+    "NODE_0000009": {
+      "branch_length": 0.0278377
+    },
+    "NODE_0000010": {
+      "branch_length": 0.01880478
+    },
+    "NODE_0000011": {
+      "branch_length": 0.00618456
+    },
+    "NODE_0000012": {
+      "branch_length": 0.00413729
+    },
+    "NODE_0000013": {
+      "branch_length": 0.00450609
+    },
+    "NODE_0000014": {
+      "branch_length": 0.00996602
+    },
+    "NODE_0000015": {
+      "branch_length": 0.01525495
+    },
+    "NODE_0000016": {
+      "branch_length": 0.01811279
+    },
+    "NODE_0000017": {
+      "branch_length": 0.02081659
+    },
+    "NODE_0000018": {
+      "branch_length": 0.00388081
+    },
+    "NODE_0000019": {
+      "branch_length": 0.00405499
+    },
+    "NODE_0000020": {
+      "branch_length": 0.00618073
+    },
+    "NODE_0000021": {
+      "branch_length": 0.01220335
+    },
+    "NODE_0000022": {
+      "branch_length": 0.04475517
+    },
+    "NODE_0000023": {
+      "branch_length": 0.00338673
+    },
+    "NODE_0000024": {
+      "branch_length": 0.01186648
+    },
+    "NODE_0000025": {
+      "branch_length": 0.00346049
+    },
+    "NODE_0000026": {
+      "branch_length": 0.00916276
+    },
+    "NODE_0000027": {
+      "branch_length": 0.05141849
+    },
+    "NODE_0000028": {
+      "branch_length": 0.00620774
+    },
+    "NODE_0000029": {
+      "branch_length": 0.02245111
+    },
+    "NODE_0000030": {
+      "branch_length": 0.01504852
+    },
+    "NODE_0000031": {
+      "branch_length": 0.00660224
+    },
+    "NODE_0000032": {
+      "branch_length": 0.01762603
+    },
+    "NODE_0000033": {
+      "branch_length": 0.0023698
+    },
+    "NODE_0000034": {
+      "branch_length": 0.00390834
+    },
+    "NODE_0000035": {
+      "branch_length": 0.01800384
+    },
+    "NODE_0000036": {
+      "branch_length": 0.01874938
+    },
+    "NODE_0000037": {
+      "branch_length": 0.00963035
+    },
+    "NODE_0000038": {
+      "branch_length": 0.05191618
+    },
+    "NODE_0000039": {
+      "branch_length": 1e-06
+    },
+    "NODE_0000040": {
+      "branch_length": 0.0043885
+    },
+    "NODE_0000041": {
+      "branch_length": 0.00501537
+    },
+    "NODE_0000042": {
+      "branch_length": 0.00724029
+    },
+    "NODE_0000043": {
+      "branch_length": 0.04557375
+    },
+    "NODE_0000044": {
+      "branch_length": 9.067e-05
+    },
+    "NODE_0000045": {
+      "branch_length": 0.00057542
+    },
+    "NODE_0000046": {
+      "branch_length": 1e-06
+    },
+    "NODE_0000047": {
+      "branch_length": 0.0005754
+    },
+    "NODE_0000048": {
+      "branch_length": 1e-06
+    },
+    "NODE_0000049": {
+      "branch_length": 1e-06
+    },
+    "NODE_0000050": {
+      "branch_length": 0.05157511
+    },
+    "NODE_0000051": {
+      "branch_length": 0.001144
+    },
+    "NODE_0000052": {
+      "branch_length": 0.00020018
+    },
+    "NODE_0000053": {
+      "branch_length": 0.00038607
+    },
+    "NODE_0000054": {
+      "branch_length": 2.48e-06
+    },
+    "NODE_0000055": {
+      "branch_length": 9.543e-05
+    },
+    "NODE_0000056": {
+      "branch_length": 0.00038395
+    },
+    "NODE_0000057": {
+      "branch_length": 2.48e-06
+    },
+    "NODE_0000058": {
+      "branch_length": 9.543e-05
+    }
+  }
+}

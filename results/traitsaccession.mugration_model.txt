@@ -1,0 +1,21 @@
+Map from character to field name
+A:	GSC
+B:	not_GSC
+C:	?
+
+
+Substitution rate (mu): 3.212678
+
+Equilibrium frequencies (pi_i):
+  A: 0.7094
+  B: 0.2906
+
+Symmetrized rates from j->i (W_ij):
+	A	B
+  A	0	2.4256
+  B	2.4256	0
+
+Actual rates from j->i (Q_ij):
+	A	B
+  A	0	1.7208
+  B	0.7048	0

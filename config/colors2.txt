@@ -1,0 +1,9 @@
+type	GSC	#EE82EE
+type	not_GSC	#3CB371
+state	CA	#8E44AD
+state	FL	#F39C12
+state	OH	#34495E
+state	WY	#117A65
+state	PA	#C0392B
+state	AR	#154360
+state	XX	#ECF0F1

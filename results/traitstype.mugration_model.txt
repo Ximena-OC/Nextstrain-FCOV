@@ -1,0 +1,25 @@
+Map from character to field name
+A:	FCoV1
+B:	FCoV2
+C:	FCoV23
+D:	?
+
+
+Substitution rate (mu): 3.132684
+
+Equilibrium frequencies (pi_i):
+  A: 0.49
+  B: 0.2838
+  C: 0.2262
+
+Symmetrized rates from j->i (W_ij):
+	A	B	C
+  A	0	2.1282	1.2749
+  B	2.1282	0	0.9775
+  C	1.2749	0.9775	0
+
+Actual rates from j->i (Q_ij):
+	A	B	C
+  A	0	1.0428	0.6247
+  B	0.6039	0	0.2774
+  C	0.2884	0.2211	0

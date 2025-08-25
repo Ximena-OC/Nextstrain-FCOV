@@ -1,0 +1,205 @@
+IQ-TREE multicore version 2.3.5.cmaple COVID-edition for Linux x86 64-bit built May 27 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    5eded1860652 (SSE4.2, 7 GB RAM)
+Command: iqtree --threads-max 1 -s results/aligned-delim.fasta -m GTR --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
+Seed:    132793 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug 25 14:12:55 2025
+Kernel:  SSE2 - auto-detect threads (16 CPU cores detected)
+
+Reading alignment file results/aligned-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0132874 secs using 91.18% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 112 sequences with 7816 columns, 3077 distinct patterns
+2839 parsimony-informative, 615 singleton sites, 4362 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000647875 secs using 177.2% CPU
+   1  FCoV1_CSU5_Ascites_WY_USA_2023               0.27%    passed     99.72%
+   2  FCoV1_CSU11_Pleural_fluid_WY_USA_2023        0.27%    passed     99.60%
+   3  FCoV1_CSU7_kidney_WY_USA_2023                0.27%    passed     99.76%
+   4  FCoV1_CSU7_GI_loop_WY_USA_2023               0.27%    passed     99.76%
+   5  FCoV1_CSU7_Spleen_WY_USA_2023                0.27%    passed     99.76%
+   6  FCoV1_CSU7_lymph_node_WY_USA_2023            0.27%    passed     99.79%
+   7  FCoV1_CSU12_whole_blood_WY_USA_2023          0.27%    passed     99.79%
+   8  FCoV1_CSU12_pleural_fluid_WY_USA_2023        0.27%    passed     99.81%
+   9  FCoV1_UU11_Netherlands_2007_FJ938052         0.31%    passed     99.37%
+  10  FCoV1_UU10_Netherlands_2007_FJ938059         0.51%    passed     99.64%
+  11  FCoV1_UU8_Netherlands_2007_FJ938055          0.24%    passed     95.60%
+  12  FCoV1_UU9_Netherlands_2007_FJ938062          0.28%    passed     98.74%
+  13  FCoV1_UU31_Netherlands_2008_HQ012371         0.29%    passed     98.61%
+  14  FCoV1_UU30_Netherlands_2008_HQ392472         0.23%    passed     92.25%
+  15  FCoV1_DC_344_AR_USA_2013                     0.31%    passed     98.70%
+  16  FCoV2_DC_344_AR_USA_2013                     0.31%    passed     94.78%
+  17  FCoV2_DC_346_AR_USA_2013                     0.31%    passed     87.10%
+  18  FCoV1_UU23_Netherlands_2007_GU553362         0.27%    passed     97.72%
+  19  FCoV1_UU22_Netherlands_2007_GU553361         0.27%    passed     98.37%
+  20  FCoV1_UU17_Netherlands_2007_HQ012367         0.29%    passed     97.98%
+  21  FCoV1_2601_M54_MED_COL                       0.27%    passed     99.91%
+  22  FCoV1_2610_M27_MED_COL                       0.27%    passed     99.57%
+  23  FCoV1_2564_M5MF_MED_COL                      0.27%    passed     98.99%
+  24  FCoV1_2598_M18_2_MED_COL                     0.27%    passed     99.08%
+  25  FCoV1_2610_M22_MED_COL                       0.27%    passed     98.79%
+  26  FCoV1_2599_M12_2_MED_COL                     0.23%    passed     97.82%
+  27  FCoV1_2357_M25MF_MED_COL                     0.27%    passed     99.40%
+  28  FCoV1_2396_M16MF_MED_COL                     0.27%    passed     99.63%
+  29  FCoV1_2610_M20_MED_COL                       0.27%    passed     99.85%
+  30  FCoV1_2598_M42_MED_COL                       0.32%    passed     99.83%
+  31  FCoV1_2357_M21MF_MED_COL                     0.27%    passed     99.98%
+  32  FCoV1_2364_M40MF_MED_COL                     0.27%    passed     99.95%
+  33  FCoV1_2598_M44_MED_COL                       0.27%    passed     83.61%
+  34  FCoV1_2610_M25_MED_COL                       0.27%    passed     98.81%
+  35  FCoV1_2598_M47_MED_COL                       0.27%    passed     99.55%
+  36  FCoV1_2364_M37MF_MED_COL                     0.27%    passed     79.89%
+  37  FCoV1_2357_M28MF_MED_COL                     0.27%    passed     79.89%
+  38  FCoV1_2396_M12MF_MED_COL                     0.27%    passed     79.69%
+  39  FCoV1_2396_M17MF_MED_COL                     0.27%    passed     81.61%
+  40  FCoV1_2357_M23MF_MED_COL                     0.27%    passed     75.84%
+  41  FCoV1_2610_M28_MED_COL                       0.27%    passed     87.72%
+  42  FCoV1_UU15_Netherlands_2007_FJ938057         0.41%    passed     89.18%
+  43  FCoV2_79_1146_USA_1979_AY994055              0.08%    passed     99.51%
+  44  FCoV1_UU2_USA_1993_FJ938060                  0.42%    passed     94.33%
+  45  FCoV1_UU24_Netherlands_2008_HQ012370         0.29%    passed     99.93%
+  46  FCoV1_FPV4_2017_Australia_ON595856           0.23%    passed     98.85%
+  47  FCoV1_FPV5_2017_Australia_ON595857           0.27%    passed     99.76%
+  48  FCoV1_HC5_2018_Australia_ON595866            0.27%    passed     94.17%
+  49  FCoV1_HC7_2018_Australia_ON595868            0.27%    passed     96.61%
+  50  FCoV1_HC2_2018_Australia_ON595863            0.27%    passed     96.36%
+  51  FCoV1_HC6_2018_Australia_ON595867            0.27%    passed     96.99%
+  52  FCoV1_FPV1_2017_Australia_ON595853           0.27%    passed     97.25%
+  53  FCoV1_HC1_2018_Australia_ON595871            0.31%    passed     65.30%
+  54  FCoV1_HC8_2018_Australia_ON595869            0.31%    passed     49.63%
+  55  FCoV1_FPV2_Australia_2017_ON595854           0.31%    passed     96.40%
+  56  FCoV1_FPV3_2017_Australia_ON595855           0.46%    passed     84.33%
+  57  FCoV2_DC_597_PA_USA_2016                     0.27%    passed     99.24%
+  58  FCoV1_FM3_USA_2020_sand_cat_OP542206         0.27%    passed     87.13%
+  59  FCoV1_1302_1_FL_USA_2024                     0.23%    passed     94.14%
+  60  FCoV1_1304_1_FL_USA_2024                     0.23%    passed     94.76%
+  61  FCoV1_1320_2_FL_USA_2024                     0.27%    passed     81.99%
+  62  FCoV1_1306_1_FL_USA_2024                     0.27%    passed     87.82%
+  63  FCoV1_1308_1_FL_USA_2024                     0.27%    passed     84.67%
+  64  FCoV1_1308_3_FL_USA_2024                     0.27%    passed     78.91%
+  65  FCoV1_1305_1_FL_USA_2024                     0.23%    passed     90.33%
+  66  FCoV1_1326_1_FL_USA_2024                     0.23%    passed     81.73%
+  67  FCoV1_UU5_Netherlands_2007_FJ938056          0.27%    passed     99.14%
+  68  FCoV1_felix_Germany_2012_MG893511            0.23%    passed     84.69%
+  69  FCoV1_1327_2_FL_USA_2024                     0.27%    passed     61.17%
+  70  FCoV1_1197_1_NY_USA_6FEB23                   0.27%    passed     99.75%
+  71  FCoV1_1197_5_NY_USA_24JUNE24                 0.27%    passed     99.89%
+  72  FCoV1_1197_6_NY_USA_27JUNE24                 0.27%    passed     99.82%
+  73  FCoV1_1197_3_NY_USA_5APRIL23                 0.27%    passed     99.68%
+  74  FCoV1_1197_4_NY_USA_11JULY23                 0.27%    passed     99.52%
+  75  FCoV1_1197_11_NY_USA_20OCT24                 0.27%    passed     98.67%
+  76  FCoV1_1197_16_NY_USA_13JAN25                 0.27%    passed     98.98%
+  77  FCoV1_1197_13_NY_USA_10DEC24                 0.28%    passed     99.19%
+  78  FCoV1_1197_9_NY_USA_23SEPT24                 0.28%    passed     99.54%
+  79  FCoV1_1197_18_NY_USA_16FEB25                 0.27%    passed     99.40%
+  80  FCoV1_1197_24_NY_USA_2JULY25                 0.27%    passed     99.73%
+  81  FCoV1_1197_21_NY_USA_7APRIL25                0.27%    passed     99.44%
+  82  FCoV1_1197_22_NY_USA_6JUNE25                 0.27%    passed     99.75%
+  83  FCoV1_1197_17_NY_USA_2FEB25                  0.28%    passed     99.78%
+  84  FCoV1_UU20_Netherlands_2007_HQ392471         0.37%    passed     97.23%
+  85  FCoV1_OM1164_pallas_cat_USA_2008_PP854701    0.32%    passed     96.10%
+  86  FCoV1_DCB091_USA_2008_PP854702               0.33%    passed     93.83%
+  87  FCoV2_178_3_TN_USA_2011                      0.27%    passed     99.44%
+  88  FCoV2_186_5_TN_USA_2011                      0.27%    passed     98.66%
+  89  FCoV1_13HRBef_China_2016_KY566211            0.27%    passed     96.94%
+  90  FCoV1_11HRBef_China_2016_KY566210            0.27%    passed     96.94%
+  91  FCoV1_HLJ_HRB_China_2016_KY566209            0.27%    passed     96.94%
+  92  FCoV1_2069_M1H_DC_BUC_COL                    0.27%    passed     99.73%
+  93  FCoV2_NTU156_Taiwan_2007_GQ152141            0.27%    passed     89.50%
+  94  FCoV1_SB22_Brazil_2016_MH817484              0.31%    passed     98.70%
+  95  FCoV1_UU7_Netherlands_2007_FJ938053          0.27%    passed     93.04%
+  96  FCoV1_UU4_Netherlands_2007_FJ938054          0.27%    passed     92.84%
+  97  FCoV1_RM_USA_2002_FJ938051                   0.45%    passed     92.44%
+  98  FCoV23_C8_Wi_8299_2023_Cyprus_PQ133181       0.31%    passed     85.40%
+  99  FCoV23_F9_Fe_9265_2023_Cyprus_PQ133190       0.31%    passed     82.13%
+ 100  FCoV23_E9_Mi_9160_2023_Cyprus_PQ133188       0.31%    passed     83.30%
+ 101  FCoV23_H8_So_8842_2023_Cyprus_PQ133194       0.31%    passed     77.06%
+ 102  FCoV23_D9_Ni_9183_2023_Cyprus_PQ133185       0.31%    passed     82.55%
+ 103  FCoV23_F12_BW_11350_2023_Cyprus_PQ133177     0.31%    passed     66.84%
+ 104  FCoV23_A9_Do_9045_2023_Cyprus_PQ133179       0.31%    passed     83.50%
+ 105  FCoV1_FPV6_2017_Australia_ON595858           0.31%    passed     94.48%
+ 106  FCoV2_WSU_79_1683_USA_1979_JN634064          0.54%    passed     99.22%
+ 107  FCoV1_26M_United_Kingdom_2013_KP143512       0.23%    passed     74.84%
+ 108  FCoV1_27C_United_Kingdom_2013_KP143507       0.23%    passed     74.84%
+ 109  FCoV1_80F_United_Kingdom_2013_KP143511       0.23%    passed     73.56%
+ 110  FCoV1_67F_United_Kingdom_2013_KP143510       0.23%    passed     71.61%
+ 111  FCoV1_65F_United_Kingdom_2013_KP143509       0.23%    passed     71.73%
+ 112  FCoV1_C1Je_United_Kingdom_2002_DQ848678      0.27%    passed     48.89%
+****  TOTAL                                        0.28%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: FCoV1_CSU7_GI_loop_WY_USA_2023 is identical to FCoV1_CSU7_kidney_WY_USA_2023 but kept for subsequent analysis
+NOTE: FCoV1_2357_M28MF_MED_COL is identical to FCoV1_2364_M37MF_MED_COL but kept for subsequent analysis
+NOTE: FCoV1_11HRBef_China_2016_KY566210 is identical to FCoV1_13HRBef_China_2016_KY566211 but kept for subsequent analysis
+NOTE: FCoV1_27C_United_Kingdom_2013_KP143507 is identical to FCoV1_26M_United_Kingdom_2013_KP143512 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: FCoV1_CSU7_Spleen_WY_USA_2023 (identical to FCoV1_CSU7_kidney_WY_USA_2023) is ignored but added at the end
+NOTE: FCoV1_HLJ_HRB_China_2016_KY566209 (identical to FCoV1_13HRBef_China_2016_KY566211) is ignored but added at the end
+Alignment was printed to results/aligned-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.063 seconds
+
+NOTE: 10 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 1 CPU cores
+Increase to 10 rounds for branch lengths
+8 trees examined
+Threads: 1 / Time: 1.053 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -248816
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -115682.477
+2. Current log-likelihood: -106260.375
+3. Current log-likelihood: -106251.425
+Optimal log-likelihood: -106251.416
+Rate parameters:  A-C: 1.66236  A-G: 5.68134  A-T: 0.92580  C-G: 0.40371  C-T: 10.70969  G-T: 1.00000
+Base frequencies:  A: 0.282  C: 0.162  G: 0.215  T: 0.341
+Parameters optimization took 3 rounds (0.797 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0436828 secs using 99.88% CPU
+Computing ML distances took 0.044677 sec (of wall-clock time) 0.044533 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000521 secs using 163.9% CPU
+Computing RapidNJ tree took 0.003093 sec (of wall-clock time) 0.002439 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -106748.458
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -106193.517
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -106151.931
+Finish initializing candidate tree set (4)
+Current best tree score: -106151.931 / CPU time: 1.061
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -106151.931
+Optimal log-likelihood: -106151.928
+Rate parameters:  A-C: 1.69390  A-G: 5.75416  A-T: 0.95195  C-G: 0.39873  C-T: 10.78977  G-T: 1.00000
+Base frequencies:  A: 0.282  C: 0.162  G: 0.215  T: 0.341
+Parameters optimization took 1 rounds (0.081 sec)
+BEST SCORE FOUND : -106151.928
+Total tree length: 2.470
+
+Total number of iterations: 2
+CPU time used for tree search: 1.058 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.062 sec (0h:0m:1s)
+Total CPU time used: 3.221 sec (0h:0m:3s)
+Total wall-clock time used: 3.242 sec (0h:0m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned-delim.fasta.treefile
+  Likelihood distances:          results/aligned-delim.fasta.mldist
+  Screen log file:               results/aligned-delim.fasta.log
+
+Date and Time: Mon Aug 25 14:12:58 2025

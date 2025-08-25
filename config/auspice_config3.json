@@ -1,0 +1,49 @@
+{
+  "title": "Feline coronavirus",
+  "maintainers": [
+    {"name": "the Nextstrain team", "url": "https://nextstrain.org/team"}
+  ],
+  "data_provenance": [
+    {
+      "name": "GenBank",
+      "url": "https://www.ncbi.nlm.nih.gov/genbank/"
+    },
+    {
+      "name": "USVI",
+      "url": "https://github.com/blab/fcov/"
+    }
+  ],
+  "build_url": "https://github.com/nextstrain/FCOV",
+  "colorings": [
+    {
+      "key": "type",
+      "title": "type",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "date",
+      "type": "continuous"
+    },
+    {
+      "key": "country",
+      "title": "country",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "state"
+  ],
+  "display_defaults": {
+    "map_triplicate": true,
+    "tip_label": "strain"
+  },
+  "metadata_columns": [
+    "strain"
+  ],
+  "filters": [
+    "country",
+    "state"
+  ]
+}

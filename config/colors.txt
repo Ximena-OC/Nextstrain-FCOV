@@ -1,0 +1,15 @@
+type	FCoV1	#8E44AD
+type	FCoV2	#f08617
+type	FCoV23	#5fa541
+country	USA	#8E44AD
+country	Australia	#f76f10
+country	Netherlands	#34495E
+country	Germany	#117A65
+country	Colombia	#EE82EE
+country	Taiwan	#8fce00
+country	China	#f44336
+country	Brazil	#c90076
+country	United Kingdom	#118bd2
+country	Cyprus	#f7bc09
+accession	GSC	#3CB371
+accession	not_GSC	#FFA500
